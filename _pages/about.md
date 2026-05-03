@@ -11,16 +11,3 @@ I am an undergraduate student at Dartmouth College, double majoring in Economics
 I will start a Ph.D. in Business Economics at Harvard University (joint with Harvard Business School) in the fall of 2026. My research interests lie broadly in macroeconomics, international economics, and finance.
 
 You can reach me via email at arjun.anand.26@dartmouth.edu.
-
-
-
-
-
-
-
-
-
-
-
-
-
