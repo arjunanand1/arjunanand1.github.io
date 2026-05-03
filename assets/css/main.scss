@@ -45,3 +45,18 @@
 footer {
   clear: both;
 }
+
+@media screen and (min-width: 1024px) {
+  body {
+    min-height: 100vh;
+  }
+
+  .page__footer {
+    position: relative;
+    clear: both;
+  }
+
+  #main {
+    min-height: calc(100vh - 100px);
+  }
+}
