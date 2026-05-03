@@ -42,21 +42,18 @@
     "vendor/font-awesome/brands"
 ;
 
-footer {
-  clear: both;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-@media screen and (min-width: 1024px) {
-  body {
-    min-height: 100vh;
-  }
+#main {
+  flex: 1;
+}
 
-  .page__footer {
-    position: relative;
-    clear: both;
-  }
-
-  #main {
-    min-height: calc(100vh - 100px);
-  }
+.page__footer {
+  margin-top: auto;
+  width: 100%;
+  float: none;
 }
