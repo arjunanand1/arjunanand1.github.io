@@ -1,6 +1,5 @@
 ---
 ---
-
 /*
  * This file controls what is imported from /_sass
  *
@@ -8,19 +7,35 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
+// ---- Layout overrides to match narrower centered layout ----
+$large: 925px;
+$x-large: 1280px;
+
+$right-sidebar-width-narrow: 0px;
+$right-sidebar-width: 0px;
+$right-sidebar-width-wide: 0px;
+
+$susy: (
+  columns: 12,
+  column-width: 120px,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: 925px,
+  global-box-sizing: border-box,
+);
+// -------------------------------------------------------------
+
 @import
     "vendor/breakpoint/breakpoint",
-
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
     "include/mixins",
     "vendor/susy/susy",
-
     "layout/reset",
     "layout/base",
-
     "include/utilities",
     "layout/tables",
     "layout/buttons",
@@ -29,14 +44,11 @@
     "layout/navigation",
     "layout/footer",
     "syntax",
-
     "layout/forms",
-
     "layout/page",
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv",
-
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
