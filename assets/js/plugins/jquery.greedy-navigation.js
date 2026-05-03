@@ -64,7 +64,7 @@ function updateNav() {
   if ($(".author__urls-wrapper button").is(":visible")) {
     $(".sidebar").css("padding-top", "");
   } else {
-    $(".sidebar").css("padding-top", mastheadHeight + "px");
+    $(".sidebar").css("padding-top", (mastheadHeight + 35) + "px");
   }
 
 }
