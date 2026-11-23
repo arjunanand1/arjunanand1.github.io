@@ -7,7 +7,7 @@ author_profile: true
 
 ### In progress
 
-* [Demography, Human Capital, and Structural Change](https://drive.google.com/file/d/1KmVTrW8ags77o_9Rt3IdYcooVmgboQny/view?usp=sharing), 2025
+* [Demography, Human Capital, and Structural Change](https://drive.google.com/file/d/1KHENI_siox134b2XBAZmVFRE57NkOT-L/view?usp=sharing), 2025
   + Undergraduate thesis advised by Treb Allen, awarded High Honors
 
 ### Policy
